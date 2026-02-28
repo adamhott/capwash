@@ -1,0 +1,127 @@
+Acronym,FullName,Description,Category,OSILayer,IANA_Port,CiscoDocLink,PacketIdentifier,WiresharkFilter,VendorProtocol
+802.1X,Port-Based Network Access Control,Authentication at Layer 2,Security,Layer 2,N/A,,EAPOL-Start,dot1x,No
+ACI,Application Centric Infrastructure,Cisco SDN data center solution,Architecture,N/A,N/A,https://www.cisco.com/c/en/us/solutions/data-center-virtualization/application-centric-infrastructure/index.html,Packet Data,aci,Yes
+APIC,Application Policy Infrastructure Controller,Controller for ACI,Cisco Platform,N/A,N/A,https://www.cisco.com/c/en/us/products/cloud-systems-management/application-policy-infrastructure-controller-apic/index.html,Packet Data,apic,Yes
+ARP,Address Resolution Protocol,Resolves IPv4 to MAC,Addressing,Layer 2,N/A,,MAC Address Advertisement,arp,No
+ASR,Aggregation Services Router,High-performance Cisco router,Hardware,N/A,N/A,https://www.cisco.com/c/en/us/products/routers/asr-1000-series-aggregation-services-routers/index.html,Packet Data,asr,Yes
+ATM,Asynchronous Transfer Mode,Cell-based WAN switching technology,WAN,Layer 2,N/A,,Packet Data,atm,No
+BFD,Bidirectional Forwarding Detection,Fast failure detection protocol,High Availability,Layer 3,3784,,Packet Data,bfd,No
+BGP,Border Gateway Protocol,Path-vector exterior routing protocol,Routing,Layer 3,179,https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13753-25.html,OPEN/UPDATE,bgp,No
+BGP-FS,BGP FlowSpec,Distributes traffic filtering rules,RFC 8955 https://datatracker.ietf.org/doc/html/rfc8955,FlowSpec NLRI match rules,N/A,Layer 3,Packet Data,bgp-fs,FlowSpec dst-port=80
+BGP-LU,BGP Labeled Unicast,Distributes MPLS labels via BGP,Routing,Layer 3,179,,Label Object,bgp-lu,No
+BVI,Bridge Virtual Interface,Routed interface for bridge domain,Routing,Layer 3,N/A,https://www.cisco.com/,Packet Data,bvi,Yes
+C9K,Catalyst 9000 Series,Enterprise switch family,Hardware,N/A,N/A,https://www.cisco.com/c/en/us/products/switches/catalyst-9000-series-switches/index.html,Packet Data,c9k,Yes
+CDP,Cisco Discovery Protocol,Layer 2 neighbor discovery protocol,Cisco Proprietary,Layer 2,N/A,https://www.cisco.com/c/en/us/support/docs/switches/catalyst-6500-series-switches/10561-3.html,Packet Data,cdp,Yes
+CEF,Cisco Express Forwarding,High-speed Layer 3 switching engine,Cisco Feature,Layer 3,N/A,https://www.cisco.com/c/en/us/support/docs/ip/express-forwarding-cef/17812-cef.html,Packet Data,cef,Yes
+CUBE,Cisco Unified Border Element,SIP session border controller,Voice,Layer 7,"50,605,061",https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/index.html,IP Packet,cube,Yes
+CUCM,Cisco Unified Communications Manager,Cisco VoIP call controller,Collaboration,Layer 7,"50,605,061",https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html,IP Packet,cucm,Yes
+DHCP,Dynamic Host Configuration Protocol,Automatic IP assignment,Application,Layer 7,"67,68",,DHCP Discover/Offer,bootp,No
+DMVPN,Dynamic Multipoint VPN,Scalable hub-and-spoke VPN,Cisco Feature,Layer 3,N/A,https://www.cisco.com/c/en/us/support/docs/security-vpn/dynamic-multipoint-vpn-dmvpn/13765-1.html,Packet Data,dmvpn,Yes
+DNA,Cisco Digital Network Architecture,Enterprise automation framework,Architecture,N/A,N/A,https://www.cisco.com/c/en/us/solutions/enterprise-networks/dna-center/index.html,Packet Data,dna,Yes
+DNAC,Cisco DNA Center,Enterprise network controller,Controller,N/A,N/A,https://www.cisco.com/c/en/us/products/cloud-systems-management/dna-center/index.html,Packet Data,dnac,Yes
+DNS,Domain Name System,Name to IP resolution,Application,Layer 7,53,,Query/Response,dns,No
+DWDM,Dense Wavelength Division Multiplexing,Multiplexes multiple wavelengths over fiber,Optical,Layer 1,N/A,,IP Packet,dwdm,No
+Diameter,Diameter Protocol,AAA protocol successor to RADIUS,Security,Layer 7,3868,,Packet Data,diameter,No
+EEM,Embedded Event Manager,IOS automation framework,Cisco Feature,N/A,N/A,https://www.cisco.com/c/en/us/products/ios-nx-os-software/embedded-event-manager-eem/index.html,Packet Data,eem,Yes
+EIGRP,Enhanced Interior Gateway Routing Protocol,Advanced distance vector routing,Routing,Layer 3,88,,Hello/Update,eigrp,Originally Yes (now informational)
+ERSPAN,Encapsulated Remote SPAN,Encapsulated packet mirroring,Monitoring,Layer 3,N/A,,GRE Encapsulated Packet,erspan,Originally Cisco
+ESA,Email Security Appliance,Cisco secure email gateway,Security,Layer 7,25,https://www.cisco.com/c/en/us/products/security/email-security-appliance/index.html,Packet Data,esa,Yes
+ESP,Embedded Services Processor,ASR forwarding hardware,Hardware,Layer 3,N/A,https://www.cisco.com/,Packet Data,esp,Yes
+EVPN,Ethernet VPN,MPLS-based L2/L3 VPN,RFC 7432 https://datatracker.ietf.org/doc/html/rfc7432,Route Type 2 MAC/IP Adv,N/A,Layer 2/3,Route Type 2 MAC/IP Adv,evpn,EVPN RT2 MAC 00:11:22:33
+FHRP,First Hop Redundancy Protocol,Group of gateway redundancy protocols,Cisco Feature,Layer 3,N/A,https://www.cisco.com/c/en/us/support/docs/ip/hot-standby-router-protocol-hsrp/13788-1.html,Packet Data,fhrp,Yes
+FTD,Firepower Threat Defense,Cisco firewall OS,Security,N/A,N/A,https://www.cisco.com/c/en/us/products/security/firepower-ngfw/index.html,Packet Data,ftd,Yes
+FabricPath,Cisco FabricPath,TRILL-based Layer 2 fabric,Cisco Proprietary,Layer 2,N/A,https://www.cisco.com/c/en/us/support/docs/switches/nexus-7000-series-switches/116121-config-nexus-fabricpath-00.html,Packet Data,fabricpath,Yes
+Firepower,Cisco Firepower NGFW,Next-generation firewall platform,Security,Layer 3-7,N/A,https://www.cisco.com/c/en/us/products/security/firepower-ngfw/index.html,Packet Data,firepower,Yes
+FrameRelay,Frame Relay,Packet-switched WAN protocol,WAN,Layer 2,N/A,,Packet Data,framerelay,No
+GLBP,Gateway Load Balancing Protocol,Load-balancing FHRP,Cisco Proprietary,Layer 3,3222,https://www.cisco.com/c/en/us/support/docs/ip/gateway-load-balancing-protocol-glbp/13774-1.html,Packet Data,glbp,Yes
+GMPLS,Generalized Multi-Protocol Label Switching,Extends MPLS to optical/TDM switching,Carrier Core,Layer 2/3,646,,Label Object,gmpls,No
+GTP,GPRS Tunneling Protocol,Mobile core tunneling protocol,Mobile,Layer 3,"21,232,152",,Packet Data,gtp,No
+HIP,Host Identity Protocol,Separates host identity from IP,RFC 7401 https://datatracker.ietf.org/doc/html/rfc7401,HIP Base Exchange,N/A,Layer 3/4,IP Packet,hip,HIP I1 packet
+HLS,HTTP Live Streaming,Adaptive bitrate streaming,Application,Layer 7,"80,443",,Packet Data,hls,No
+HSRP,Hot Standby Router Protocol,Gateway redundancy protocol,Cisco Proprietary,Layer 3,1985,https://www.cisco.com/c/en/us/support/docs/ip/hot-standby-router-protocol-hsrp/13788-1.html,Packet Data,hsrp,Yes
+HTTP,Hypertext Transfer Protocol,Web transfer protocol,Application,Layer 7,80,,GET/POST,http,No
+HTTPS,HTTP Secure,HTTP over TLS,Application,Layer 7,443,,TLS handshake,ssl,No
+ICMP,Internet Control Message Protocol,Error/reporting protocol,Control,Layer 3,1,,Packet Data,icmp,No
+IEEE,Institute of Electrical and Electronics Engineers,Standards body for Ethernet/Wi-Fi,Organization,N/A,N/A,,Packet Data,ieee,No
+IETF,Internet Engineering Task Force,Standards body for Internet protocols,Organization,N/A,N/A,,Packet Data,ietf,No
+IGMPv3,Internet Group Management Protocol v3,Source-specific multicast,RFC 3376 https://datatracker.ietf.org/doc/html/rfc3376,Membership Report v3,N/A,Layer 3,Packet Data,igmpv3,IGMPv3 Include 239.1.1.1
+IOAM,In-situ Operations,Administration & Maintenance,Telemetry,Node data added per hop,N/A,Layer 3,Packet Data,ioam,IOAM trace data
+IOS-XE,Cisco IOS-XE,Modular Cisco operating system,Operating System,N/A,N/A,https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xe/index.html,Packet Data,ios-xe,Yes
+IOS-XR,Cisco IOS-XR,Carrier-grade modular OS,Operating System,N/A,N/A,https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html,Packet Data,ios-xr,Yes
+IP,Internet Protocol,Logical addressing and routing protocol,Network,Layer 3,N/A,,Packet Data,ip,No
+IPFIX,IP Flow Information Export,Flow export protocol,Monitoring,Layer 7,4739,,Template/Data Record,ipfix,No
+IS-IS,Intermediate System to Intermediate System,Link-state routing protocol,Routing,Layer 3,N/A,,LSP,isis,No
+ISE,Identity Services Engine,AAA and NAC platform,Security,Layer 7,"18,121,813",https://www.cisco.com/c/en/us/products/security/identity-services-engine/index.html,Packet Data,ise,Yes
+ISR,Integrated Services Router,Cisco branch router platform,Hardware,N/A,N/A,https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/index.html,Packet Data,isr,Yes
+ISSU,In-Service Software Upgrade,Upgrade without traffic disruption,Cisco Feature,N/A,N/A,https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-120-mainline/20080-issu.html,Packet Data,issu,Yes
+Kerberos,Kerberos Authentication Protocol,Ticket-based authentication,Security,Layer 7,88,,Packet Data,kerberos,No
+LACP,Link Aggregation Control Protocol,Negotiates EtherChannel links,Switching,Layer 2,N/A,,Packet Data,lacp,No
+LAN,Local Area Network,Local network segment,Concept,Layer 1-3,N/A,,Packet Data,lan,No
+LC,Line Card,Modular interface card,Hardware,Layer 1-3,N/A,https://www.cisco.com/,Packet Data,lc,Yes
+LDAP,Lightweight Directory Access Protocol,Directory services protocol,Security,Layer 7,389,,Packet Data,ldap,No
+LDP,Label Distribution Protocol,MPLS label signaling protocol,Routing,Layer 3,646,,Label Mapping,ldp,No
+LISP,Locator/ID Separation Protocol,Separates identity from location,RFC 9300 https://datatracker.ietf.org/doc/html/rfc9300,Map-Request/Map-Reply,N/A,Layer 3,Map-Request/Map-Reply,lisp,LISP Map-Reply EID 10.1.1.0/24
+LLDP,Link Layer Discovery Protocol,Vendor-neutral neighbor discovery,Switching,Layer 2,N/A,,LLDPDU,lldp,No
+MAC,Media Access Control,Layer 2 addressing scheme,Concept,Layer 2,N/A,,Packet Data,mac,No
+MACsec,Media Access Control Security,Layer 2 encryption,Security,Layer 2,N/A,,SecTAG/ICV,macsec,No
+MPLS,Multi-Protocol Label Switching,Label-based forwarding,Core,Layer 2.5,N/A,,Label Stack,mpls,No
+MVPN,Multicast VPN,BGP-based multicast VPN,RFC 6514 https://datatracker.ietf.org/doc/html/rfc6514,C-multicast route,N/A,Layer 3,Packet Data,mvpn,MVPN Type 7 route
+MVRP,Multiple VLAN Registration Protocol,Dynamic VLAN registration,Switching,Layer 2,N/A,,Packet Data,mvrp,No
+Meraki,Meraki Cloud Networking,Cloud-managed networking platform,Platform,Layer 2-7,N/A,https://meraki.cisco.com/,Packet Data,meraki,Yes
+N9K,Nexus 9000 Series,Data center switch platform,Hardware,N/A,N/A,https://www.cisco.com/c/en/us/products/switches/nexus-9000-series-switches/index.html,Packet Data,n9k,Yes
+NCS,Network Convergence System,Cisco carrier-class router platform,Hardware,Layer 3,N/A,https://www.cisco.com/,Packet Data,ncs,Yes
+NETCONF,Network Configuration Protocol,XML-based device management,Automation,Layer 7,830,,Packet Data,netconf,No
+NSH,Network Service Header,Service chaining metadata,RFC 8300 https://datatracker.ietf.org/doc/html/rfc8300,Service Path ID,N/A,Layer 2/3,SPI/SI,nsh,NSH SPI=100 SI=255
+NTP,Network Time Protocol,Time synchronization protocol,Infrastructure,Layer 7,123,,NTP Request/Reply,ntp,No
+NX-OS,Nexus Operating System,Cisco data center OS,Software,N/A,N/A,https://www.cisco.com/c/en/us/products/ios-nx-os-software/nx-os-software/index.html,Packet Data,nx-os,Yes
+OAuth,Open Authorization Framework,Token-based authorization,Security,Layer 7,443,,Packet Data,oauth,No
+OMP,Overlay Management Protocol,Control plane for Cisco SD-WAN,Overlay,Layer 3,N/A,https://www.cisco.com/,Packet Data,omp,Yes
+OSPF,Open Shortest Path First,Link-state IGP using LSAs,Routing,Layer 3,89,https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/13684-12.html,Packet Data,ospf,No
+OTV,Overlay Transport Virtualization,DC L2 extension over L3,Cisco Proprietary,Layer 2/3,8472,https://www.cisco.com/,Packet Data,otv,Yes
+OpenFlow,OpenFlow Protocol,SDN control protocol,SDN,Layer 3/7,6653,,Packet Data,openflow,No
+PBB,Provider Backbone Bridging,MAC-in-MAC encapsulation,Carrier Ethernet,Layer 2,N/A,,MAC Address Advertisement,pbb,No
+PIM-SSM,Protocol Independent Multicast - SSM,Source-specific multicast routing,RFC 4607 https://datatracker.ietf.org/doc/html/rfc4607,"(S,G) join",N/A,Layer 3,Packet Data,pim-ssm,"PIM Join (S,G)"
+PTP,Precision Time Protocol,High precision time sync,Timing,Layer 7,"319,320",,Sync/Follow_Up,ptp,No
+PTP-TC,PTP Transparent Clock,PTP timing correction mechanism,Timing,Layer 2/3,"319,320",,Packet Data,ptp-tc,No
+Prime,Cisco Prime Infrastructure,Legacy network management suite,Management,N/A,N/A,https://www.cisco.com/c/en/us/products/cloud-systems-management/prime-infrastructure/index.html,Packet Data,prime,Yes
+QFP,Quantum Flow Processor,Cisco forwarding processor ASIC,Hardware,Layer 3,N/A,https://www.cisco.com/,Packet Data,qfp,Yes
+QUIC,Quick UDP Internet Connections,Modern encrypted transport,RFC 9000 https://datatracker.ietf.org/doc/html/rfc9000,N/A,N/A,Initial packet with TLS handshake,Packet Data,quic,No
+QoS,Quality of Service,Traffic prioritization mechanisms,Performance,Layer 2-4,N/A,,Packet Data,qos,No
+RESTCONF,RESTful Configuration Protocol,HTTP-based YANG config interface,Automation,Layer 7,443,,Packet Data,restconf,No
+RIP,Routing Information Protocol,Distance-vector IGP,Routing,Layer 3,520,,Packet Data,rip,No
+RP,Route Processor,Cisco control plane module,Hardware,N/A,N/A,https://www.cisco.com/,Packet Data,rp,Yes
+RPKI,Resource Public Key Infrastructure,BGP route origin validation,RFC 6480 https://datatracker.ietf.org/doc/html/rfc6480,ROA validation,N/A,Layer 7,ROA Validation,rpki,RPKI Valid
+RSTP,Rapid Spanning Tree Protocol,Faster convergence STP,Switching,Layer 2,N/A,,Packet Data,rstp,No
+RSVP-TE,Resource Reservation Protocol - Traffic Engineering,MPLS TE signaling,Traffic Engineering,Layer 3,46,,PATH/RESV,rsvp,No
+SAML,Security Assertion Markup Language,Federated identity standard,Security,Layer 7,443,,Packet Data,saml,No
+SCTP,Stream Control Transmission Protocol,Multi-stream transport protocol,RFC 4960 https://datatracker.ietf.org/doc/html/rfc4960,INIT/INIT-ACK,N/A,Layer 4,INIT/INIT-ACK,sctp,SCTP INIT tag=12345
+SD-WAN,Cisco SD-WAN (Viptela),Overlay WAN fabric,Cisco Architecture,Layer 3,12346,https://www.cisco.com/c/en/us/solutions/enterprise-networks/sd-wan/index.html,Packet Data,sd-wan,Yes
+SDA,Software-Defined Access,Cisco campus fabric overlay,Campus Fabric,Layer 2/3,4341,https://www.cisco.com/,Packet Data,sda,Yes
+SNMP,Simple Network Management Protocol,Network management protocol,Management,Layer 7,"161,162",,Get/Set/Trap,snmp,No
+SONET,Synchronous Optical Networking,Fiber-optic transport standard,Optical,Layer 1,N/A,,Packet Data,sonet,No
+SR-MPLS,Segment Routing MPLS,Source routing via MPLS labels,Routing,Layer 3,N/A,,Label Object,sr-mpls,No
+SRv6,Segment Routing IPv6,Source routing via IPv6 extension headers,R,,N/A,,IP Packet,srv6,No
+SSO,Stateful Switchover,High-availability feature,Cisco Feature,N/A,N/A,https://www.cisco.com/c/en/us/support/docs/switches/catalyst-6500-series-switches/24062-156.html,Packet Data,sso,Yes
+STP,Spanning Tree Protocol,Prevents Layer 2 loops,Switching,Layer 2,N/A,,Packet Data,stp,No
+StackWise,Cisco switch stacking technology,Stacking,N/A,Stack ring control,N/A,Layer 2,Packet Data,stackwise,Stack ring 32Gbps
+SyncE,Synchronous Ethernet,Physical layer frequency sync,Timing,Layer 1,N/A,,Packet Data,synce,No
+TCP,Transmission Control Protocol,Connection-oriented reliable transport protocol,Transport,Layer 4,6,,Packet Data,tcp,No
+TWAMP,Two-Way Active Measurement Protocol,Active performance measurement,OAM,Layer 7,862,,Test Packet,two-way,No
+ThousandEyes,Cisco ThousandEyes,Internet visibility platform,Monitoring,N/A,N/A,https://www.thousandeyes.com/,Packet Data,thousandeyes,Yes
+TrustSec,Cisco TrustSec,SGT-based security architecture,Security,Layer 2-7,N/A,https://www.cisco.com/,Packet Data,trustsec,Yes
+UADP,Unified Access Data Plane,Cisco Catalyst ASIC architecture,Hardware,Layer 2/3,N/A,https://www.cisco.com/,Packet Data,uadp,Yes
+UCS,Unified Computing System,Cisco server platform,Hardware,N/A,N/A,https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html,Packet Data,ucs,Yes
+UDP,User Datagram Protocol,Connectionless transport protocol,Transport,Layer 4,N/A,,Packet Data,udp, streaming
+Umbrella,Cisco Umbrella,Cloud DNS security platform,Security,Layer 7,53,https://umbrella.cisco.com/,Packet Data,umbrella,Yes
+VLAN,Virtual LAN,Logical segmentation of Layer 2,Switching,Layer 2,N/A,,Packet Data,vlan,No
+VSS,Virtual Switching System,Cisco Catalyst switch virtualization,Cisco Proprietary,Layer 2,N/A,https://www.cisco.com/,Packet Data,vss,Yes
+VTP,VLAN Trunking Protocol,Propagates VLAN database across switches,Cisco Proprietary,Layer 2,N/A,https://www.cisco.com/c/en/us/support/docs/lan-switching/vtp/10558-21.html,Packet Data,vtp,Yes
+VXLAN-GPE,VXLAN Generic Protocol Extension,Extends VXLAN to carry non-ETH,RFC 7348 + draft,Next-Protocol field,N/A,Layer 3,Packet Data,vxlan-gpe,VXLAN-GPE NextProto=IPv4
+Viptela,Cisco Viptela,SD-WAN acquisition platform,Platform,N/A,N/A,https://www.cisco.com/c/en/us/products/routers/sd-wan-routers/index.html,Packet Data,viptela,Yes
+WAN,Wide Area Network,Geographically dispersed network,Concept,Layer 1-3,N/A,,Packet Data,wan,No
+WSA,Web Security Appliance,Cisco web proxy/security appliance,Security,Layer 7,"80,443",https://www.cisco.com/c/en/us/products/security/web-security-appliance/index.html,Packet Data,wsa,Yes
+YANG,YANG Data Modeling Language,Data modeling language for NETCONF,Automation,N/A,N/A,,Packet Data,yang,No
+gNMI,gRPC Network Management Interface,Streaming telemetry protocol,Telemetry,Layer 7,57400,https://www.cisco.com/,Packet Data,gnmi,No (Open standard)
+gRPC,Google Remote Procedure Call,High-performance RPC framework,Automation,Layer 7,50051,,Packet Data,grpc,No
+outing,RFC 8986 https://datatracker.ietf.org/doc/html/rfc8986,,Layer 3,Modern SR deployments,N/A,show segment-routing srv6,Packet Data,outing,No
+vPC,Virtual Port Channel,Nexus multi-chassis EtherChannel,Cisco Proprietary,Layer 2,N/A,https://www.cisco.com/,Packet Data,vpc,Yes

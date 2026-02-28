@@ -1,0 +1,93 @@
+# ═══════════════════════════════════════════════════════════════
+# capwash .gitignore
+# ═══════════════════════════════════════════════════════════════
+
+# ── Rust / Cargo ──────────────────────────────────────────────
+/target
+**/*.rs.bk
+*.pdb
+
+# ── capwash output ────────────────────────────────────────────
+# Redacted pcap output
+redacted.pcap
+
+# Confidential findings directory (contains original PII, credentials, IPs)
+/sensitive
+
+# Generated acronym guide
+/acronym-guide
+
+# ── Pcap files ────────────────────────────────────────────────
+# Test captures (large binary files — do not commit)
+*.pcap
+!ultimate-capture.pcap
+*.pcapng
+*.pcap.gz
+*.pcapng.gz
+*.cap
+*.7z
+
+# ── IDE / Editor ──────────────────────────────────────────────
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (CLion, IntelliJ, RustRover)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+\#*\#
+.#*
+*.elc
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows ───────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ── Linux ─────────────────────────────────────────────────────
+*~
+.nfs*
+.fuse_hidden*
+.directory
+
+# ── Environment / secrets ─────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+*.cert
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Archives / compressed ─────────────────────────────────────
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar

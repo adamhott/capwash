@@ -876,3 +876,7 @@ The Wireshark validation tests require `capinfos` and `tshark`. If these are not
 The test capture used during development is **"The Ultimate PCAP"** by Johannes Weber, available at [https://weberblog.net/the-ultimate-pcap/](https://weberblog.net/the-ultimate-pcap/). It contains 90+ different protocols and over 40,000 packets spanning captures from 2009 to 2025, making it an ideal comprehensive test file for a redaction tool targeting broad protocol coverage.
 
 ---
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE.txt) file for details.

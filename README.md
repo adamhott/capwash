@@ -6,6 +6,38 @@ The primary use case is preparing network captures for safe sharing — between 
 
 ---
 
+## Installing Rust
+
+Rust is installed via `rustup`, the official Rust toolchain manager. It works on macOS, Linux, and Windows.
+
+### macOS / Linux
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Follow the on-screen prompts (the defaults are fine) to add the path to your shell. Then reload your shell.
+
+### Windows
+
+Download and run the installer from [rustup.rs](https://rustup.rs). You will also need the [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) if not already installed.
+
+### Verify installation
+
+```bash
+rustc --version
+cargo --version
+```
+
+You should see something like `rustc 1.78.0` and `cargo 1.78.0`. Any version **1.70 or newer** works.
+
+### Updating Rust
+
+```bash
+rustup update
+```
+---
+
 ## Build & Install
 
 **Requirements:** Rust 1.70+ (edition 2021)
